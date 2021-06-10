@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+/*potisne vsebino desno, ven iz menija*/
+#glavni{
+	margin-left: 200px;
+	
+}
+
+/*velikost in oblika glave, kjer se nahaja ime spletne strani ter logo*/
+#glava{
+	
+	height: 120px;
+	text-align:center;
+	line-height:200px;
+	color:white;
+	
+}
+
+
+/*oblika menija*/
+
+.sidenav {
+  height: 100%; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0;
+  left: 0;
+  background-color: #04abd3;
+  overflow-x: hidden; 
+  font-family: "Candara";
+ 
+}
+
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+}
+
+
+.sidenav a:hover {
+  color:white;
+}
+
+/*lastnosti dropdown menija*/
+.dropdown-container {
+  display: none;
+  background-color: white;
+  padding-left: 8px;
+}
+
+.dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  font-family: "Candara";
+}
+
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+/*lastnosti naslova h1*/
+h1 {
+font-family: "Candara";
+font-size: 24pt;
+text-align: left;
+color: #2f2d2d;
+text-indent: 20px;
+}
+
+/*lastnosti naslova h2*/
+h2 {
+font-family: "Candara";
+font-size: 20pt;
+text-align: left;
+color: #2f2d2d;
+text-indent: 20px;
+background-color: #04abd3
+}
+/*tu sem naredila, da je barva ozadja ista kot pisave, saj sem si želela ločilno črto*/
+h3 {
+font-family: "Candara";
+font-size: 20pt;
+text-align: left;
+color: #04abd3;
+text-indent: 20px;
+background-color: #04abd3;
+}
+
+/*lastnosti besedila*/
+p {
+font-family: "Candara";
+font-size: 16pt;
+text-align: left;
+color: #2f2d2d;
+text-indent: 20px;
+
+}
+
+/*image1 so lastnosti za logo*/
+.image1
+{
+float: left;
+width: 200px;
+margin-top: 25px;
+margin-left: 5px;
+}
+
+/*image2 so lastnosti za slike, ki so centrirane na strani*/
+.image2
+{
+width:400px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+/*image3 so lastnosti za posamezne slike (želela sem, da so manjše)*/
+.image3
+{
+width:250px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+/*v box sem postavila besedilo skupaj s sliko, da so ena vertikalno razporejene*/
+.box1 {
+   display: flex;
+   align-items:center;
+   background-color: #04abd3 ;
+}
+
+/*podobno kot box1*/
+.box2 {
+   display: flex;
+   align-items:center;
+}
+
+/*image4 so lastnosti za posamezne slike (želela sem, da so večje)*/
+.image4  {
+width:600px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}

@@ -1,0 +1,84 @@
+<html>
+<head>		
+	<title>Viri in kontakt</title>
+	<meta charset="UTF-8" />
+
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />		
+</head>
+<body>
+<div class="sidenav"> <script> /*stranski meni z dropdown lastnostjo*/</script>
+		
+			<a href="index.html">Domov</a>
+			<a href="drugi.html">Zgodovina</a>
+			
+			 <button class="dropdown-btn">Oblačne storitve
+				<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-container">
+				<a href="tretji.html">Značilnosti</a>
+				<a href="cetrti.html">Prednosti in slabosti</a>
+				<a href="peti.html">Vrste oblakov</a>
+				<a href="sesti.html">Primer uporabe</a>
+				
+			
+				</div>
+			<a href="sedmi.html">Prihodnost</a>
+			<a href="osmi.html">Viri in kontakt</a>
+			
+	</div>
+	
+<script> /* dropdown meni - oblačne storitve */
+
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+<div id="glavni">
+<img src="slika/logo.png" class="image1">
+<div id="glava">
+	<h1>Viri in kontakt</h1>
+	
+	</div>
+	
+	
+					
+		<div id="telo"> <script>/*besedilo*/</script>
+		<br></br>
+		<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title">Logo</span> by <span property="cc:attributionName">Tina Semič</span> is marked with <a href="http://creativecommons.org/publicdomain/zero/1.0?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC0 1.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/zero.svg?ref=chooser-v1"></a></p>
+		<br></br>
+		<h2>Viri</h2>
+		<br></br>
+		<p>Vir 1: Merljak, J. (2009). <a href="http://eprints.fri.uni-lj.si/921/1/Merljak_J-UN.pdf" target="_blank"> Računalništvo v oblaku [Diplomsko delo, Univerza v Ljubljani, Fakulteta za računalništvo in informatiko] </a> </p>
+		<br></br>
+		<p>Vir 2: Žarn, T. (2014). <a href="http://eprints.fri.uni-lj.si/2759/1/63090305-TADEJ_%C5%BDARN-Primerjava_zasebnega_in_javnega_oblaka.pdf" target="_blank">Primerjava zasebnega in javnega oblaka [Diplomsko delo, Univerza v Ljubljani, Fakulteta za računalništvo in informatiko]</a></p>
+		<br></br>
+		<p>Vir 3: Širec, M. (2014). <a href="http://dk.fdv.uni-lj.si/diplomska_dela_1/pdfs/mb11_sirec-marko.pdf" target="_blank"> Cloud computing oz. podatkovni oblak – vidiki implementacije v izobraževalnih ustanovah [Diplomsko delo, Univerza v Ljubljani, Fakulteta za družbene vede]</a></p>
+		<br></br>
+		<p>Vir 4: <a href="https://azure.microsoft.com/en-us/overview/what-is-cloud-computing/" target="-blank"> What is cloud computing? (b.d.). </a></p>
+		<br></br>
+		<h2>Kontakt</h2>
+		<br></br>
+		<p>Ime in priimerk avtorja: Tina Semič</p>
+		<p>Naziv: Študentka matematike in računalništva Pedagoške fakultete, Univerze v Ljubljani</p>
+		<p>Kontakt (e-mail): ts4918[at]student.uni-lj.si</p>
+		<p>Nastanek spletne strani: 10.06.2021</p>
+		<p>Zadnja sprememba: 10.06.2021</p>
+		</div>
+	
+	</div>
+	
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+<html>
+<head>		
+	<title>Vrste oblakov</title>
+	<meta charset="UTF-8" />
+
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />		
+</head>
+<body>
+<div class="sidenav"> <script> /*stranski meni z dropdown lastnostjo*/</script>
+		
+			<a href="index.html">Domov</a>
+			<a href="drugi.html">Zgodovina</a>
+			
+			 <button class="dropdown-btn">Oblačne storitve
+				<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-container">
+				<a href="tretji.html">Značilnosti</a>
+				<a href="cetrti.html">Prednosti in slabosti</a>
+				<a href="peti.html">Vrste oblakov</a>
+				<a href="sesti.html">Primer uporabe</a>
+				
+			
+				</div>
+			<a href="sedmi.html">Prihodnost</a>
+			<a href="osmi.html">Viri in kontakt</a>
+			
+	</div>
+	
+<script> /* mama mija tu je z drop down menu */
+
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+<div id="glavni">
+<img src="slika/logo.png" class="image1">
+<div id="glava">
+	<h1>Vrste oblakov</h1>
+		
+</div>
+		
+	<div id="telo">   <script>/*besedilo ter slike*/</script>
+		<br></br>
+		<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title">Logo</span> by <span property="cc:attributionName">Tina Semič</span> is marked with <a href="http://creativecommons.org/publicdomain/zero/1.0?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC0 1.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/zero.svg?ref=chooser-v1"></a></p>
+		<br></br>
+		<h2>Zasebni oblak</h2>
+		<br></br>
+		<p>•	Boljši nadzor, saj se oprema nahaja na lokaciji uporabnika, zato imajo organizacije boljši nadzor nad svojimi podatki.</p>
+		<p>•	Boljša varnost, saj so storitve zasebnega oblaka namenjene samo eni organizaciji, zato se tako programska oprema in omrežja oblikujejo z visoko ravnjo varnosti.</p>
+		<p>•	Višja zmogljivost: zasebni oblak se postavi znotraj požarnega zidu organizacije tako se hitrost prenosa zelo poveča.</p>
+		<p>•	Prilagodljivost: zmogljivost strojne opreme, omrežja in pomnilnika lahko pri zasebnem oblaku prilagodimo glede na naše potrebe, potrebe podjetja.</p>
+		<p>•	Višji stroški zaradi lastnega vzdrževanja, saj je potrebna lastna strojna oprema ter osebje za vzdrževanje. Organizacija mora zagotoviti zadostno energijo ter hlajenje poleg tega osebje z znanjem na tem področju.</p>
+		<p>•	Meja zmogljivosti zaradi velikosti prostora.</p>
+		<br></br>
+		<p style="font-size: 0.9rem;font-style: italic;"><img style="display: block;" class="image2" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Private_cloud-ta.svg" alt="File:Private cloud-ta.svg"><a href="https://commons.wikimedia.org/w/index.php?curid=77560086">"File:Private cloud-ta.svg"</a><span> by <a href="https://commons.wikimedia.org/wiki/User:Mekala_Harika">Translated into Tamil by User:Mekala Harika</a></span> is licensed under <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en?ref=ccsearch&atype=html" style="margin-right: 5px;">CC0 1.0</a><a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en?ref=ccsearch&atype=html" target="_blank" rel="noopener noreferrer" style="display: inline-block;white-space: none;margin-top: 2px;margin-left: 3px;height: 22px !important;"><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc_icon.svg?image_id=c2f46a77-f78c-4f24-8493-c6dff46e5ae3" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-cc0_icon.svg" /></a></p>
+		<br></<br>
+		<br></br>
+		<h2>Javni oblak</h2>
+		<br></br>
+		<p>•	Preprost in učinkovit sta glavni prednosti javnega oblaka. Javni oblak je kot storitev , ki je dosegljiva preko internetne povezave. Uporabniki mesečno ali letno plačujejo za uporabo storitve, ki ne predstavlja velikih stroškov.</p>
+		<p>•	Podatki v oblaku so bolj dosegljivi, zanesljivi ter lažje obnovljivi, kot podatki v tradicionalnih podatkovnih centrih. Prav tako je oblak na voljo kot sredstvo za varno shranjevanje podatkov.</p>
+		<p>•	Za vzdrževanje javnega oblaka je potrebno manj časa, kot za vzdrževanje zasebnega. Ob zrušenju strežnika ali ponovni zaženitvi strežnika je potreben tak proces, ki lahko traja več ur, vendar zaradi virtualnega značaja javnega oblaka ta traja le nekaj minut. V primeru odpovedi enega strežnika se takoj aktivira drugi in tako skrajša čas izpada.</p>
+		<p>•	Uporabniki lahko javni oblak dosežejo že preko brskalnika ali aplikacije.</p>
+		<br></br>
+		<p style="font-size: 0.9rem;font-style: italic;"><img style="display: block;" class="image2" src="https://live.staticflickr.com/929/27774352598_ed9cfff30a.jpg" alt="Big Data"><a href="https://www.flickr.com/photos/153724200@N07/27774352598">"Big Data"</a><span> by <a href="https://www.flickr.com/photos/153724200@N07">learn_tek</a></span> is licensed under <a href="https://creativecommons.org/licenses/cc0/1.0/?ref=ccsearch&atype=html" style="margin-right: 5px;">CC0 1.0</a><a href="https://creativecommons.org/licenses/cc0/1.0/?ref=ccsearch&atype=html" target="_blank" rel="noopener noreferrer" style="display: inline-block;white-space: none;margin-top: 2px;margin-left: 3px;height: 22px !important;"><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc_icon.svg?image_id=44a42246-e239-42fe-a2a5-ec87ed6590e1" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-cc0_icon.svg" /></a></p>
+		<br></br>
+		<h2>Hibridni oblak</h2>
+		<br></br>
+		<p>Hibridni oblak je kombinacija zasebnega in javnega oblaka, ki ostaneta dve ločeni enoti, ki sta povezani preko standardizirane ali lastniške tehnologije, ki omogoča prenos podatkov in aplikacij. Notranji viri ostanejo pod nadzorom odjemalca medtem, ko zunanje vire priskrbi ponudkih oblačnih storitev. Hibridni oblak uporabljamo predvsem za poslovne zadeve, saj je ščitenje podatkov veliko, hkrati pa omogoča veliko računalniško moč. Njegove prednosti so hiter prenos podatkov, dobra varnost ter ugodna cena za dalj časa. Njegova slabost pa je predvsem ta, da moramo odločati med količino podatkov in procesno močjo, ki vpliva na učinkovitost oblaka.</p>
+		<br></br>
+		<p style="font-size: 0.9rem;font-style: italic;"><img style="display: block;" class="image2" src="https://live.staticflickr.com/5735/22989295025_87df5fe552_b.jpg" alt="2.c Hybrid cloud 2"><a href="https://www.flickr.com/photos/136770128@N07/22989295025">"2.c Hybrid cloud 2"</a><span> by <a href="https://www.flickr.com/photos/136770128@N07">Infosec Images</a></span> is licensed under <a href="https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=html" style="margin-right: 5px;">CC BY 2.0</a><a href="https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=html" target="_blank" rel="noopener noreferrer" style="display: inline-block;white-space: none;margin-top: 2px;margin-left: 3px;height: 22px !important;"><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc_icon.svg?image_id=58e4cfb4-e9ae-480a-bea2-4b09b78de47f" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-by_icon.svg" /></a></p>
+	</div>
+	</div>
+	</div>
+	 
+
+	
+</body>
+
+</html>

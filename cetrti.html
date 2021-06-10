@@ -1,0 +1,83 @@
+<html>
+<head>		
+	<title>Prednosti in slabosti</title>
+	<meta charset="UTF-8" />
+
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />		
+</head>
+<body>
+<div class="sidenav"> <script> /*stranski meni z dropdown lastnostjo*/</script>
+		
+			<a href="index.html">Domov</a>
+			<a href="drugi.html">Zgodovina</a>
+			
+			 <button class="dropdown-btn">Oblačne storitve
+				<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-container">
+				<a href="tretji.html">Značilnosti</a>
+				<a href="cetrti.html">Prednosti in slabosti</a>
+				<a href="peti.html">Vrste oblakov</a>
+				<a href="sesti.html">Primer uporabe</a>
+				
+			
+				</div>
+			<a href="sedmi.html">Prihodnost</a>
+			<a href="osmi.html">Viri in kontakt</a>
+			
+	</div>
+	
+<script> /* mama mija tu je z drop down menu */
+
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+<div id="glavni">
+<img src="slika/logo.png" class="image1">
+<div id="glava">
+	<h1>Prednosti in slabosti</h1>
+	
+	</div>
+	
+	
+					
+		<div id="telo"> <script>/*besedilo*/</script>
+		<br></br>
+		<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title">Logo</span> by <span property="cc:attributionName">Tina Semič</span> is marked with <a href="http://creativecommons.org/publicdomain/zero/1.0?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC0 1.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/zero.svg?ref=chooser-v1"></a></p>
+		<br></br>
+		<h2>Prednosti</h2>
+		<br></br>
+		<p>•	Najem storitve glede na trenutne potrebe.</p>
+		<p>•	Sprotno posodabljanje programske opreme.</p>
+		<p>•	Velika prednost za manjša podjetja, ki nimajo lastne računalniške infrastrukture.</p>
+		<p>•	Poceni dostop do računalniških storitev (dobra strojna oprema ni potrebna, potrebuje se le spletni brskalnik ali nekaj s podobnim delovanjem – dostop do podatkov koderkoli).</p>
+		<br></br>
+		<h2>Slabosti</h2>
+		<br></br>
+		<p>•	Obvezna internetna povezava.</p>
+		<p>•	Slabo delovanje na počasnih internetnih povezavah.</p>
+		<p>•	Vprašanje varnosti ter zasebnosti.</p>
+	
+		</div>
+	
+	</div>
+	
+
+	
+</body>
+
+</html>
+
